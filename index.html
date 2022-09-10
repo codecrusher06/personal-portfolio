@@ -12,50 +12,58 @@
   <body>
     <!-- Header -->
     <header>
-      <h1>Michael Kofod</h1>
-      <h2>
-        <address>123 Main St, Savannah GA, 31410</address>
-        <email>mikekofod@gmail.com</email>
-        <phone>123-456-7890</phone>
-      </h2>
-
       <div class="banner">
-        <section class="background"></section>
+        <h1>Michael Kofod</h1>
+        <h2>
+          <address>123 Main St, Savannah GA, 31410</address>
+          <email>michaelkofod@gmail.com</email>
+          <phone>123-456-7890</phone>
+        </h2>
       </div>
     </header>
-
-    <aside>
-      <nav>About Projects Contact Info</nav>
+    <div class="wrapper">
+      <div class="sidenavbar"></div>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="Mybackground"></a>/a></li>
+          <li><a href="Projects"></a>/a></li>
+          <li><a href="Contact"></a>/a></li>
+        </ul>
     </aside>
 
-    <article>
+    <article class="Mybackground">
+      <img
+        src="./assets/images/MK.jpg"
+        alt="michael headshot"
+        width="350"
+        height="450"
+      />
       <h3>About:</h3>
       <p>
-        Mike is a family man; a father and husband. He is a 26 year veteran of
+        I am a family man; a father and husband. I am also a 26 year veteran of
         the Army. And currently an Engineering Manager in R&D fabrication for an
         aerospace company.
       </p>
     </article>
     <div class="Projects">
       <section class="box">
-        <header>My First Project</header>
-        <img src=".location of image file" alt="text discription" />
+        <h4>My First Project</h4>
+        <img src=".location of image file" alt="text discription of image" />
         <p>This is a short note about my first project</p>
       </section>
 
       <section class="box">
-        <header>My Second Project</header>
-        <img src=".location of image file" alt="text discription" />
+        <h4>My Second Project</h4>
+        <img src=".location of image file" alt="text discription of image" />
         <p>This is a short note about my second project</p>
       </section>
 
       <section class="box">
-        <header>My Third Project</header>
-        <img src=".location of image file" alt="text discription" />
+        <h4>My Third Project</h4>
+        <img src=".location of image file" alt="text discription of image" />
         <p>This is a short note about my third project</p>
       </section>
     </div>
+    <footer>Footer</footer>
   </body>
-
-  <footer>footer</footer>
 </html>
