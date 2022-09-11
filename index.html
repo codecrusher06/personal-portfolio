@@ -13,25 +13,24 @@
     <!-- Header -->
     <header>
       <div class="banner">
-        <h1>Michael Kofod</h1>
-        <h2>
+        <h1 class="header-name">Michael Kofod</h1>
+        <h2 id="header-contact">Contact Info</h2>
+        <h2 class="header-contact">
           <address>123 Main St, Savannah GA, 31410</address>
           <email>michaelkofod@gmail.com</email>
           <phone>123-456-7890</phone>
         </h2>
       </div>
     </header>
-    <div class="wrapper">
-      <div class="sidenavbar"></div>
-        <h3>Navigation</h3>
-        <ul>
-          <li><a href="Mybackground"></a>/a></li>
-          <li><a href="Projects"></a>/a></li>
-          <li><a href="Contact"></a>/a></li>
-        </ul>
-    </aside>
 
-    <article class="Mybackground">
+    <nav class="navbar">
+      <a href="#mybackground">Background</a>
+      <a href="#projects">Projects</a>
+      <a href="#header-contact">Contact Info</a>
+    </nav>
+
+    <div id="mybackground">Background</div>
+    <article class="mybackground">
       <img
         src="./assets/images/MK.jpg"
         alt="michael headshot"
@@ -45,7 +44,9 @@
         aerospace company.
       </p>
     </article>
-    <div class="Projects">
+
+    <div id="projects">Projects</div>
+    <div class="projects">
       <section class="box">
         <h4>My First Project</h4>
         <img src=".location of image file" alt="text discription of image" />
